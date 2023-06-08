@@ -73,3 +73,5 @@ for(let i = 0; i < cardWrapper.length; i++){
     })
 
 }
+
+console.log 

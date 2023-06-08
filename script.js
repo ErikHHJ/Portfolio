@@ -73,5 +73,3 @@ for(let i = 0; i < cardWrapper.length; i++){
     })
 
 }
-const semester = document.querySelector("#semester")
-semester.href = "https://github.com/ErikHHJ/PokemonCardGameSolo"

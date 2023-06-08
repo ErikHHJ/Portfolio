@@ -18,18 +18,18 @@
     gap: 60px;
     place-items: center;
     padding: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
     height: auto;
     width: 1200px;
     background-color: rgb(10, 10, 10);
     margin: 0 auto;
     border-radius: 10px;
-    margin-bottom: 20px;
     
 }
 
 .footer {
     margin-top: auto;
+    max-width: 1200px;
 }
 .pagetitle {
     font-size: 35px;

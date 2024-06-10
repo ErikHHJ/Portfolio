@@ -20,7 +20,8 @@
   padding: 20px;
   padding-bottom: 100px;
   height: auto;
-  width: 1200px;
+  width: 100vw;
+  max-width: 1200px;
   background-color: rgb(10, 10, 10);
   margin: 0 auto;
   border-radius: 10px;
@@ -138,7 +139,7 @@ nav {
   background-color: white;
   color: black;
   font-size: 25px;
-  width: 300px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,4 +156,14 @@ a {
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .cardheader {
+    font-size: 20px;
+  }
+  .pagetitle {
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+  }
 }
